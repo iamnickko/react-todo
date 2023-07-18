@@ -1,0 +1,25 @@
+.item {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #5FD8F8;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0.4rem 0;
+}
+
+.delete {
+  display: flex;
+  align-items: center;
+}
+
+.delete span {
+    margin: auto 5px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    font-weight: 100;
+    color: #ccc;
+}
